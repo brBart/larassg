@@ -1,0 +1,23 @@
+{
+    "name": "agwood/larassg",
+    "description": "",
+    "authors": [
+        {
+            "name": "Andrew Wood",
+            "email": "andygwood@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Agwood\\Larassg\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
